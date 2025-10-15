@@ -27,7 +27,7 @@ while deepening my understanding of **electroacoustic design** and **filter inte
 ## Tools & Software
 - **VituixCAD** — Electrical and acoustic simulation  
 - **REW (Room EQ Wizard)** — Frequency response & impedance measurements  
-- **LibreCAD / Fusion360** — Enclosure and mechanical design  
+- **Fusion360** — Enclosure and mechanical design  
 - **Python (optional)** — Data analysis and plotting  
 
 ## Project Files
