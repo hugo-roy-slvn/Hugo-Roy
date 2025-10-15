@@ -1,10 +1,10 @@
-Hugo-Roy
+## Hugo-Roy
 
 Embedded Systems Engineer graduate (ECE Paris).
 Passionate about digital audio, DSP, and acoustic design.
 I design projects combining electronics and signal processing.
 
-Areas of Interest
+## Areas of Interest
 
     Digital Audio (DSP, filters, synthesis, real-time processing)
 
@@ -14,7 +14,7 @@ Areas of Interest
 
     Python for signal analysis and simulation (Numpy, Scipy)
 
-Recent Projects
+## Recent Projects
 
     ESP32 Real-Time IIR Filter: real-time audio filtering via I2S
 
