@@ -10,9 +10,9 @@ Areas of Interest
 
     Embedded Systems (ESP32, C, FreeRTOS)
 
-    Acoustics and Speaker Design
+    Acoustics and Speaker Design (VituxCAD, Room EQ Wizard)
 
-    Python for signal analysis and simulation
+    Python for signal analysis and simulation (Numpy, Scipy)
 
 Recent Projects
 
