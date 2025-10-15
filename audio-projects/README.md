@@ -9,4 +9,4 @@ General Objectives :
 - Gain hands-on experience in **filter design, DSP algorithms**, and **embedded audio systems**.  
 - Apply my background in **embedded systems engineering** to the field of **sound design and audio technology**.
 
-"Sound is where science meets perception." These projects are my way of exploring that connection.
+>"Sound is where science meets perception." These projects are my way of exploring that connection.
