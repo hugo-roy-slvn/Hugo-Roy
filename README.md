@@ -23,6 +23,6 @@ I design projects combining electronics and signal processing.
     Audio Signal Processing Exercises: Python mini-projects (STFT, spectrogram)
 
 Contact: 
-hugo.roy2b@gmail.com 
+hugo.roy2b@gmail.com / 
 https://www.linkedin.com/in/hugo-roy-3747001b9/
 Based in Paris, France
