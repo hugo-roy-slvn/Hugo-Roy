@@ -13,12 +13,12 @@ The design follows a **studio-monitor philosophy**, prioritizing linearity, tran
 |-----------|----------------------|------------|
 | **Frequency Response** | 40 Hz – 18 kHz (±2 dB) | Achieve full-range reproduction suitable for music and monitoring. |
 | **Sensitivity** | ~86–88 dB / 2.83V / 1m | Balanced efficiency for domestic amplification. |
-| **Nominal Impedance** | 8 Ω | Standard load compatible with most amplifiers. |
+| **Nominal Impedance** | 4 Ω | Standard load compatible with most amplifiers. |
 | **Crossover Frequency** | LF–MF: ~400 Hz, MF–HF: ~3000 Hz | Typical 3-way distribution minimizing overlap and distortion. |
 | **Power Handling** | 60–80 W RMS | Adequate for medium-sized rooms without driver stress. |
 | **Enclosure Type** | Bass-reflex, front-ported | Extend low-frequency response and ease placement. |
 | **Directivity** | Smooth off-axis response (±30°) | Maintain tonal balance and stereo imaging. |
-| **THD (Target)** | <1% across midband | Ensure clean reproduction with minimal coloration. |
+
 
 ---
 
@@ -26,8 +26,8 @@ The design follows a **studio-monitor philosophy**, prioritizing linearity, tran
 
 | Type | Description |
 |------|--------------|
-| **Budget** | 600–700 € total (drivers, crossover components, materials). |
-| **Form Factor** | Bookshelf-style enclosure (~20–25 L) for practical testing. |
+| **Budget** | 300–500 € total (drivers, crossover components, materials). |
+| **Form Factor** | Bookshelf-style enclosure (~40–50 L) for practical testing. |
 | **Measurement Equipment** | UMIK-1 or XLR microphone + Scarlett Solo interface. |
 | **Tools Available** | VituixCAD (simulation), REW (measurements), Fusion360 (CAD). |
 | **Amplification** | Passive crossover; external stereo amplifier for testing. |
