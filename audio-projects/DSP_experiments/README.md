@@ -16,15 +16,17 @@ These experiments use **Python** and standard scientific libraries:
 
 ## 🔬 Example Results
 
-### 🎵 Frequency Tracking of a Chirp
-![chirp_tracking](./examples/chirp_tracking.png)
+### 🎵 Frequency Tracking 
+<img width="1951" height="1189" alt="image" src="https://github.com/user-attachments/assets/0aa21339-ba49-4cc9-9f77-8fc31706bbde" />
+
 
 ### Segmentation of stable frequency regions of an audio signal
 <img width="1974" height="1212" alt="image" src="https://github.com/user-attachments/assets/9319aecf-26ce-4a6a-b47f-bf137340f4b0" />
 
 
-### 💥 Onset Detection Function (ODF) for Piano Notes
-![piano_odf](./examples/piano_odf.png)
+### energy enveloppe of high and low components
+<img width="2087" height="1187" alt="image" src="https://github.com/user-attachments/assets/b882a9d1-ccfb-459d-a3e8-f3f0f0236eb0" />
+
 
 ---
 
@@ -34,18 +36,8 @@ Through these mini-projects, I aim to:
 - Understand and implement **core DSP blocks** (filters, transforms, models).
 - Develop **intuition about frequency-domain behavior** and time-resolution trade-offs.
 - Prepare for **embedded implementation** (C/C++ on ESP32 or ARM Cortex-M).
-- Build a **solid audio-DSP portfolio** with both theoretical and practical depth.
 
----
 
-## 🧭 Next Steps
-
-- 🧠 Port selected DSP blocks to **C for ESP32** (real-time processing).
-- 🔊 Compare real-time behavior vs. offline simulation.
-- 📈 Document performance and audio quality metrics.
-- 🗂️ Integrate results into my broader **audio portfolio**.
-
----
 
 > _This repository reflects my ongoing journey to become a professional Audio DSP Engineer — learning by experimenting, testing, and building._  
 
