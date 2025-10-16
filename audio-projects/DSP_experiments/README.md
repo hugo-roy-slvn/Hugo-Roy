@@ -1,17 +1,6 @@
-
----
-
-## 🧩 Main Topics Covered
-
-| Area | Description | Key Functions / Files |
-|------|--------------|-----------------------|
-| **Filtering** | Design and compare FIR vs IIR filters. Explore stability, impulse responses, and spectral effects. | `biquad_lowpass()`, `filter_response_plot.py` |
-| **Time-Frequency Analysis** | Compute STFT, energy envelopes, and visualize spectrograms for musical signals. | `compute_stft.py`, `energy_envelope_extraction.py` |
-| **Onset Detection** | Implement a simple ODF (Onset Detection Function) using energy and half-wave rectification. | `compute_odf.py` |
-| **Sinusoidal Modeling** | Estimate and track sinusoidal components in synthetic and real signals. | `freq_estimation_error.py`, `chirp_tracking.py` |
-| **Harmonic Modeling** | Detect harmonic partials, measure inharmonicity, and segment stable frequency regions. | `inharmonicity_measurement.py`, `segment_stable_frequency_regions()` |
-
----
+> ⚠️ **Disclaimer:**  
+> All of the scripts and analyses in this repository come from exercises of the course *"Digital Signal Processing for Musical Applications" (UPF / MTG)*.  
+> None of the implementations presented here claim to be perfect or entirely correct — they are my own answers and learning experiments while studying the course concepts.
 
 ## 🧮 Tools & Libraries
 
@@ -30,8 +19,9 @@ These experiments use **Python** and standard scientific libraries:
 ### 🎵 Frequency Tracking of a Chirp
 ![chirp_tracking](./examples/chirp_tracking.png)
 
-### 🎚️ Harmonic + Stochastic Modeling of Speech
-![hps_model](./examples/hps_model_speech.png)
+### Segmentation of stable frequency regions of an audio signal
+<img width="1974" height="1212" alt="image" src="https://github.com/user-attachments/assets/9319aecf-26ce-4a6a-b47f-bf137340f4b0" />
+
 
 ### 💥 Onset Detection Function (ODF) for Piano Notes
 ![piano_odf](./examples/piano_odf.png)
