@@ -11,10 +11,10 @@ The design follows a **studio-monitor philosophy**, prioritizing linearity, tran
 
 | Category | Target Specification | Rationale |
 |-----------|----------------------|------------|
-| **Frequency Response** | 40 Hz – 18 kHz (±2 dB) | Achieve full-range reproduction suitable for music and monitoring. |
+| **Frequency Response** | 50 Hz – 20 kHz (±2 dB) | Achieve full-range reproduction suitable for music and monitoring. |
 | **Sensitivity** | ~86–88 dB / 2.83V / 1m | Balanced efficiency for domestic amplification. |
 | **Nominal Impedance** | 4 Ω | Standard load compatible with most amplifiers. |
-| **Crossover Frequency** | LF–MF: ~400 Hz, MF–HF: ~3000 Hz | Typical 3-way distribution minimizing overlap and distortion. |
+| **Crossover Frequency** | LF–MF: ~500 Hz, MF–HF: ~5000 Hz | Typical 3-way distribution minimizing overlap and distortion. |
 | **Power Handling** | 60–80 W RMS | Adequate for medium-sized rooms without driver stress. |
 | **Enclosure Type** | Bass-reflex, front-ported | Extend low-frequency response and ease placement. |
 | **Directivity** | Smooth off-axis response (±30°) | Maintain tonal balance and stereo imaging. |
@@ -38,9 +38,9 @@ The design follows a **studio-monitor philosophy**, prioritizing linearity, tran
 
 | Band | Model (Example) | Key Specs | Role |
 |------|------------------|------------|------|
-| **Woofer** | 6.5″ (e.g., SB Acoustics, SEAS, Dayton) | Fs ≈ 40 Hz, Qts ≈ 0.4, SPL ≈ 87 dB | Low-frequency range & foundation. |
-| **Midrange** | 4″ (e.g., SB12MNRX, Visaton AL130M) | Smooth response 200–5000 Hz | Vocal range & definition. |
-| **Tweeter** | 1″ dome (e.g., SB26ADC, SEAS 27TDFC) | Fs < 1000 Hz, low distortion | High-frequency detail and clarity. |
+| **Woofer** | SB Acoustics SB17MFC35-8 | Fs ≃ 33 Hz, Qts ≃ 0.37, SPL ≃ 88 dB | Low-frequency range & foundation. |
+| **Midrange** | Monacor MSH-115 | Smooth response 300–5000 Hz | Vocal range & definition. |
+| **Tweeter** | Audax TW025A0 | Fs ≃ 1000 Hz, low distortion | High-frequency detail and clarity. |
 
 ---
 
@@ -49,7 +49,7 @@ The design follows a **studio-monitor philosophy**, prioritizing linearity, tran
 - Flat **on-axis frequency response** with controlled crossover summation.
 - **Phase-coherent** transition between drivers.
 - Optimized **baffle geometry** to reduce diffraction effects.
-- **Vent tuning** to achieve ~45 Hz f₃ cutoff.
+- **Vent tuning** to achieve ~50 Hz f₃ cutoff.
 - Realistic **group delay** (<15 ms in bass region).
 - Maintain **acoustic center alignment** between drivers for coherent imaging.
 
