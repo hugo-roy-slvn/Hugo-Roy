@@ -79,11 +79,11 @@ NMP441 microphone + ESP32 +  MAX98357A amplifier + passive speaker
 - Implementation: **Direct Form I**
 - Coefficients (default in `iir_filter.c`) :
 
-```c
+~~~c
 b0 = 0.0003751f;
 b1 = 0.0007501f;
 b2 = 0.0003751f;
 a1 = -1.9444777f;
-a2 = 0.9459779f; '''
+a2 = 0.9459779f; ~~~
 
 okok
