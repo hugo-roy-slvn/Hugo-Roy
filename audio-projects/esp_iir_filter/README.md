@@ -10,7 +10,7 @@
 
 # 🎧 ESP32 Audio Loopback with IIR Filter and Switch Control
 
-## 📘 Overview
+## Overview
 
 This project implements a **real-time audio loopback** on the **ESP32**, with:
 - **Microphone input (I²S RX)**
@@ -28,29 +28,26 @@ EQs, filters, crossovers, and DSP demonstrations.
 
 ---
 
-## ⚙️ Features
+## Features
 
-✅ Full-duplex I²S loopback (microphone → amplifier)  
-✅ Configurable **IIR low-pass filter (Butterworth 2ᵉ ordre)**  
-✅ Real-time enable/disable via **GPIO button (BOOT)**  
-✅ Modular design for easy extension  
-✅ ESP-IDF compatible (v5.x)
+Full-duplex I²S loopback (microphone → amplifier)  
+Configurable **IIR low-pass filter (Butterworth 2ᵉ ordre)**  
+Real-time enable/disable via **GPIO button (BOOT)**  
+Modular design for easy extension  
+ESP-IDF compatible (v5.x)
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
-├── main.c # Application entry point (task creation)
-├── config.h # Global configuration (pins, sampling rate)
-│
-├── i2s_manager.c/.h # I²S RX/TX initialization and configuration
-├── iir_filter.c/.h # Biquad filter implementation (IIR)
-├── switch_control.c/.h # GPIO switch monitoring task
-│
-├── CMakeLists.txt # ESP-IDF component registration
-│
-├── stability.py # Validate filter pole/zero stability
-└── filter.py # Compute and visualize filter frequency response
+main.c # Application entry point (task creation)
+config.h # Global configuration (pins, sampling rate)
+i2s_manager.c/.h # I²S RX/TX initialization and configuration
+iir_filter.c/.h # Biquad filter implementation (IIR)
+switch_control.c/.h # GPIO switch monitoring task
+CMakeLists.txt # ESP-IDF component registration
+stability.py # Validate filter pole/zero stability
+filter.py # Compute and visualize filter frequency response
 
 
 ### File Responsibilities
@@ -69,6 +66,17 @@ EQs, filters, crossovers, and DSP demonstrations.
 ## System Architecture
 
 **Hardware:** INMP441 microphone + ESP32 +  MAX98357A amplifier + Speaker
+     ┌──────────────────────────────────────────────┐
+     │                 ESP32                        │
+     │                                              │
+     │   ┌────────┐     ┌────────────┐     ┌──────┐ │
+ Mic →   │I²S RX→ │ →   │ IIR Filte  │ →   │I²S TX│ → Amplifier → Speaker
+     │   │ (DMA)  │     │ (optional) │     │ (DAC)│ │
+     │   └────────┘     └────────────┘     └──────┘ │
+     │                                              │
+     │    GPIO0 Button → Toggle Filter (On/Off)     │
+     └──────────────────────────────────────────────┘
+
 
      ┌──────────────────────────────────────────────┐
      │                 ESP32                        │
