@@ -1,5 +1,5 @@
 
-### ESP32 Audio Loopback with IIR Filter and Switch Control
+# ESP32 Audio Loopback with IIR Filter and Switch Control
 
 **Goal:** Implement and demonstrate a real-time **IIR (Infinite Impulse Response)** audio filter on an ESP32 microcontroller using the I²S interface.  
 - **Language:** C (ESP-IDF)  
