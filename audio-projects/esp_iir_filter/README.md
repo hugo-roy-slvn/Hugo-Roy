@@ -27,11 +27,11 @@ EQs, filters, crossovers, and DSP demonstrations.
 
 ## Features
 
-Full-duplex I²S loopback (microphone → amplifier)  
-Configurable **IIR low-pass filter (Butterworth 2ᵉ ordre)**  
-Real-time enable/disable via **GPIO button (BOOT)**  
-Modular design for easy extension  
-ESP-IDF compatible (v5.x)
+- Full-duplex I²S loopback (microphone → amplifier)  
+- Configurable **IIR low-pass filter (Butterworth 2ᵉ ordre)**  
+- Real-time enable/disable via **GPIO button (BOOT)**  
+- Modular design for easy extension  
+- ESP-IDF compatible (v5.x)
 
 ---
 
