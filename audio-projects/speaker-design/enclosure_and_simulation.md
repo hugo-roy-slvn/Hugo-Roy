@@ -25,9 +25,9 @@ The design follows a **bass-reflex configuration** for the woofer and **sealed s
 
 | Parameter | Symbol | Target / Measured | Unit |
 |------------|---------|-------------------|------|
-| Equivalent compliance volume | \( V_\text{as} \) | [__39__] | L |
+| Equivalent compliance volume | \( V \) | [__39__] | L |
 | Resonance frequency | \( f_s \) | [_33_Hz__] | Hz |
-| Total Q factor | \( Q_\text{ts} \) | [4,9] | – |
+| Total Q factor | \( Q \) | [4,9] | – |
 | Enclosure internal volume | \( V_b \) | [_42__] | L |
 
 
