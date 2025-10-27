@@ -69,7 +69,27 @@ ESP-IDF compatible (v5.x)
 ## System Architecture
 
 NMP441 microphone + ESP32 +  MAX98357A amplifier + passive speaker
-  
+
+## Requirements
+
+- ESP-IDF v5.x
+- ESP32 board (e.g. ESP32-DevKitC)
+- I²S-compatible microphone (e.g. INMP441)
+- I²S amplifier or DAC (e.g. MAX98357A)
+~~~bash
+# Configure target and environment
+idf.py set-target esp32
+
+# Build
+idf.py build
+
+# Flash to device
+idf.py flash
+
+# Monitor serial output
+idf.py monitor
+~~~
+
 ## Filter Details
 
 - Type: **Butterworth low-pass**
@@ -87,4 +107,4 @@ a1 = -1.9444777f;
 a2 = 0.9459779f;
 ~~~
 
-okok
+
