@@ -107,14 +107,15 @@ a2 = 0.9459779f;
 
 ## Python Validation (stability & frequency response)
 
-This project includes two small Python utilities to **validate the IIR filter design** and **inspect its response** before/after flashing the firmware.
+This project includes two small Python utilities to **validate the IIR filter design** and **inspect its response** before flashing the firmware.  
+Those files can be found in DSP_tools repository.
 
-### stability.py - pole/zero check & stability plot
+### IIR_stability_analyser.py - pole/zero check & stability plot
 - Computes zeros/poles from your coefficients
 - Verifies stability (all poles strictly inside the unit circle)
 - Draws a Z-plane diagram (poles/zeros + unit circle)
 
-### filter.py - coefficient "cookbook" + Bode plots
+### IIR_coef_filer_calculator.py - coefficient "cookbook" + Bode plots
 - Provides biquad generator functions (low-pass, high-pass, band-pass, notch, peaking)
 - Returns normalized coefficients [b0,b1,b2], [1,a1,a2]
 - Plots magnitude (dB) and phase for quick inspection
@@ -122,12 +123,6 @@ This project includes two small Python utilities to **validate the IIR filter de
 ### dependancies
 ~~~bash
 pip install numpy scipy matplotlib
-~~~
-
-### Run
-~~~bash
-python filter.py
-python stability.py
 ~~~
 
 ## Possible Extensiosn
