@@ -70,7 +70,11 @@ EQs, filters, crossovers, and DSP demonstrations.
 - ESP32 board (e.g. ESP32-DevKitC)
 - I²S-compatible microphone (e.g. INMP441)
 - I²S amplifier or DAC (e.g. MAX98357A)
+
 ~~~bash
+#Create projet
+idf.py create-project "project name"
+
 # Configure target and environment
 idf.py set-target esp32
 
@@ -105,22 +109,22 @@ a2 = 0.9459779f;
 
 This project includes two small Python utilities to **validate the IIR filter design** and **inspect its response** before/after flashing the firmware.
 
-# stability.py - pole/zero check & stability plot
+### stability.py - pole/zero check & stability plot
 - Computes zeros/poles from your coefficients
 - Verifies stability (all poles strictly inside the unit circle)
 - Draws a Z-plane diagram (poles/zeros + unit circle)
 
-# filter.py - coefficient "cookbook" + Bode plots
+### filter.py - coefficient "cookbook" + Bode plots
 - Provides biquad generator functions (low-pass, high-pass, band-pass, notch, peaking)
 - Returns normalized coefficients [b0,b1,b2], [1,a1,a2]
 - Plots magnitude (dB) and phase for quick inspection
 
-# dependancies
+### dependancies
 ~~~bash
 pip install numpy scipy matplotlib
 ~~~
 
-# Run
+### Run
 ~~~bash
 python filter.py
 python stability.py
