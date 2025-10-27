@@ -28,7 +28,7 @@ The design follows a **bass-reflex configuration** for the woofer and **sealed s
 | Equivalent compliance volume | \( V_\text{as} \) | [__39__] | L |
 | Resonance frequency | \( f_s \) | [_33_Hz__] | Hz |
 | Total Q factor | \( Q_\text{ts} \) | [4,9] | – |
-| Enclosure internal volume | \( V_b \) | [_50__] | L |
+| Enclosure internal volume | \( V_b \) | [_42__] | L |
 
 
 ### 3.2 Midrange Sub-Enclosure
@@ -39,6 +39,7 @@ The design follows a **bass-reflex configuration** for the woofer and **sealed s
 | Wall damping | polyester wool | Reduces internal reflections. |
 | Isolation | ✅ Separate from woofer chamber | Prevents pressure modulation. |
 | Resonant frequency | > [_85_Hz__] |  |
+| Enclosure internal volume | \( V_b \) | [5] L  |  |
 
 
 
