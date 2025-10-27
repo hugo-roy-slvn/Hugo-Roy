@@ -1,4 +1,5 @@
 # 🔊 3-Way Loudspeaker Design
+                                             <img width="241" height="606" alt="image" src="https://github.com/user-attachments/assets/c020c4d3-a318-46d9-bdf6-41c3a3455f05" />
 
 This project presents the design and acoustic simulation of a **high-fidelity 3-way passive loudspeaker**.  
 The goal is to develop a system capable of **accurate, linear, and detailed sound reproduction**,  
