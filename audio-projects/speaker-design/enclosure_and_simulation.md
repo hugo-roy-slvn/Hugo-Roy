@@ -42,7 +42,7 @@ The design follows a **bass-reflex configuration** for the woofer and **sealed s
 
 
 
-### 3.3 Port (Bass Reflex Vent) Design
+### 3.3 Port (Bass Reflex Vent) & Box Design 
 
 <img width="900" height="347" alt="image" src="https://github.com/user-attachments/assets/83e5223b-7520-4b92-9d2e-6e73fd28355b" />
 
