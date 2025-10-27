@@ -63,9 +63,6 @@ EQs, filters, crossovers, and DSP demonstrations.
 
 ---
 
-## System Architecture
-
-NMP441 microphone + ESP32 +  MAX98357A amplifier + passive speaker
 
 ## Requirements
 
