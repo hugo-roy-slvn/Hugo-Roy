@@ -30,9 +30,8 @@ while deepening my understanding of **electroacoustic design** and **filter inte
 - **Fusion360** — Enclosure and mechanical design  
 
 ## Project Files
-- `target_requirements/` → design targets and sketches  
-- `simulation_report/` → VituixCAD project and simulated frequency plots  
-- `enclosure_design/` → CAD files, material selection, and design notes  
+- `target_requirements/` → design targets and sketches   
+- `enclosure_and_simulation/` → material selection, design notes & VituixCAD
 - `measurements/` → REW measurement data and analysis (in progress)
 - `results_and_discussion/` → comparison and final evaluation (in progres)
 
