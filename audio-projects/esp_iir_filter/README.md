@@ -68,30 +68,8 @@ ESP-IDF compatible (v5.x)
 
 ## System Architecture
 
-**Hardware:** INMP441 microphone + ESP32 +  MAX98357A amplifier + Speaker
-     ┌──────────────────────────────────────────────┐  
-     │                 ESP32                        │  
-     │                                              │  
-     │   ┌────────┐     ┌────────────┐     ┌──────┐ │  
- Mic →   │I²S RX→ │ →   │ IIR Filte  │ →   │I²S TX│ → Amplifier → Speaker  
-     │   │ (DMA)  │     │ (optional) │     │ (DAC)│ │  
-     │   └────────┘     └────────────┘     └──────┘ │  
-     │                                              │  
-     │    GPIO0 Button → Toggle Filter (On/Off)     │  
-     └──────────────────────────────────────────────┘  
-
-
-     ┌──────────────────────────────────────────────┐
-     │                 ESP32                        │
-     │                                              │
-     │   ┌────────┐     ┌────────────┐     ┌──────┐ │
-Mic →│   |I²S RX→ │ →→  │ IIR Filter │ →→  │I²S TX│ → Amp → Speaker
-     │   | (DMA)  │     │ (optional) │     │(DAC)││ |
-     |   └────────┘     └────────────┘     └──────┘ │
-     │     GPIO0 Button → Toggle Filter (On/Off)    │
-     └──────────────────────────────────────────────┘
-
-
+NMP441 microphone + ESP32 +  MAX98357A amplifier + passive speaker
+  
 ## Filter Details
 
 - Type: **Butterworth low-pass**
@@ -108,22 +86,5 @@ b2 = 0.0003751f;
 a1 = -1.9444777f;
 a2 = 0.9459779f;
 
-## Build and Flash Instructions
 
-**Requirements** :
-- ESP-IDF v5.x
-- ESP3 board
-- I²S-compatible microphone (e.g. INMP441)
-- I²S amplifier or DAC (e.g. MAX98357A)
-
-# Configure target and environment
-idf.py set-target esp32
-
-# Build
-idf.py build
-
-# Flash to device
-idf.py flash
-
-# Monitor serial output
-idf.py monitor
+## Build and flash 
