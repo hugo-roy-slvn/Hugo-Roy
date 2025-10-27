@@ -13,8 +13,8 @@ while deepening my understanding of **electroacoustic design** and **filter inte
 ## Design Overview
 | Subsystem | Description |
 |------------|--------------|
-| **Woofer** | Handles low frequencies (30–300 Hz), optimized enclosure volume and port tuning. |
-| **Midrange** | Covers 300–3000 Hz, designed for minimal distortion and natural vocal tone. |
+| **Woofer** | Handles low frequencies (30–500 Hz), optimized enclosure volume and port tuning. |
+| **Midrange** | Covers 500–3000 Hz, designed for minimal distortion and natural vocal tone. |
 | **Tweeter** | Reproduces high frequencies (3–20 kHz), high sensitivity and smooth response. |
 | **Crossover** | 3-way passive crossover simulated in VituixCAD. |
 
