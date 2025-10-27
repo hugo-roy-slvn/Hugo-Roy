@@ -77,6 +77,7 @@ The design follows a **bass-reflex configuration** for the woofer and **sealed s
 
 <img width="560" height="519" alt="image" src="https://github.com/user-attachments/assets/28838a82-7237-422a-9f87-964ce7d46e42" />
 
+The simulated SPL response shows a dip around 50 Hz, which is expected to be compensated by the contribution of the bass reflex port. The impedance curve remains satisfactory, consistently above 5 Ω. Phase alignment was challenging to fine-tune, so it was left as currently modeled, with the final evaluation to be performed through listening tests.
 
 ## 7. Summary and Next Steps
 
