@@ -17,12 +17,6 @@ The design follows a **bass-reflex configuration** for the woofer and **sealed s
 | **Midrange** | Sealed sub-enclosure | Isolate from woofer pressure and stabilize the midband. |
 | **Tweeter** | Closed back / integrated | Natural mechanical damping of dome driver. |
 
-📘 *(Insert a 3D rendering or front-view sketch here)*  
-![Cabinet Rendering](./renders/cabinet_front.png)
-
-> *Comment:*  
-> The cabinet design aims to balance internal volume, stiffness, and diffraction control for accurate imaging.
-
 ---
 
 ## 3. Design Parameters
@@ -36,9 +30,6 @@ The design follows a **bass-reflex configuration** for the woofer and **sealed s
 | Total Q factor | \( Q_\text{ts} \) | [4,9] | – |
 | Enclosure internal volume | \( V_b \) | [_50__] | L |
 
-📈 *(Insert your VituixCAD or WinISD bass response simulation)*  
-![Bass reflex tuning](./renders/bass_reflex_tuning.png)
-
 
 ### 3.2 Midrange Sub-Enclosure
 
@@ -49,8 +40,6 @@ The design follows a **bass-reflex configuration** for the woofer and **sealed s
 | Isolation | ✅ Separate from woofer chamber | Prevents pressure modulation. |
 | Resonant frequency | > [_85_Hz__] |  |
 
-📘 *(Insert schematic of midrange sub-chamber)*  
-![Midrange chamber diagram](./renders/midrange_chamber.png)
 
 
 ### 3.3 Port (Bass Reflex Vent) Design
