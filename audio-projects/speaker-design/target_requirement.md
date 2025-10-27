@@ -58,20 +58,10 @@ The design follows a **studio-monitor philosophy**, prioritizing linearity, tran
 ## 6. Simulation Targets
 
 Using **VituixCAD**, the following analyses will be conducted:
-- **Frequency and phase response** (on- and off-axis).  
-- **Power and DI (Directivity Index)** curves.  
+- **Frequency and phase response** (on axis).  
 - **Crossover optimization** (component tuning).  
 - **Impedance simulation** for amplifier compatibility.  
 
 Each simulation step will be documented and compared to measurement data once available.
 
 ---
-
-## 7. Success Criteria
-
-✅ The project will be considered successful if:
-1. The measured frequency response matches simulation within ±3 dB.  
-2. The loudspeaker delivers a balanced and natural tonal impression.  
-3. The crossover behavior is stable across listening angles.  
-4. Listening tests confirm low coloration and good stereo imaging.  
-5. All objectives are achieved within the defined budget.
