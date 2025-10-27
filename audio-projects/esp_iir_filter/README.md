@@ -4,11 +4,8 @@
 **Goal:** Implement and demonstrate a real-time **IIR (Infinite Impulse Response)** audio filter on an ESP32 microcontroller using the I²S interface.  
 - **Language:** C (ESP-IDF)  
 - **Key concepts:** digital filtering, real-time audio pipeline, I²S audio interface  
--  
-- **Status:** 🧩 in progress — hardware testing phase  
+- **Hardware:** NMP441 microphone + ESP32 +  MAX98357A amplifier + passive speaker   
 - **Educational purpose:** understand computational constraints and latency in embedded DSP.
-
-# 🎧 ESP32 Audio Loopback with IIR Filter and Switch Control
 
 ## Overview
 
@@ -107,4 +104,34 @@ a1 = -1.9444777f;
 a2 = 0.9459779f;
 ~~~
 
+## Python Validation (stability & frequency response)
 
+This project includes two small Python utilities to **validate the IIR filter design** and **inspect its response** before/after flashing the firmware.
+
+# stability.py - pole/zero check & stability plot
+- Computes zeros/poles from your coefficients
+- Verifies stability (all poles strictly inside the unit circle)
+- Draws a Z-plane diagram (poles/zeros + unit circle)
+
+# filter.py - coefficient "cookbook" + Bode plots
+- Provides biquad generator functions (low-pass, high-pass, band-pass, notch, peaking)
+- Returns normalized coefficients [b0,b1,b2], [1,a1,a2]
+- Plots magnitude (dB) and phase for quick inspection
+
+# dependancies
+~~~bash
+pip install numpy scipy matplotlib
+~~~
+
+# Run
+~~~bash
+python filter.py
+python stability.py
+~~~
+
+## Possible Extensiosn
+- Add FIR filtering (e.g., convolution EQ)
+- Implement multi-band parametric EQ
+- Add FFT-based visualization or spectral analysis
+- Add IIR filter design function configurable via UART or web interface
+- Switch between low-pass / high-pass / bypass
