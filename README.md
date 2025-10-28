@@ -1,7 +1,7 @@
 ## Hugo-Roy
 
 Embedded Systems Engineer graduate (ECE Paris).
-Passionate about digital audio, DSP, and acoustic design.
+Passionate about audio, DSP, and acoustic design.
 I design projects combining electronics and signal processing.
 
 ## Areas of Interest
