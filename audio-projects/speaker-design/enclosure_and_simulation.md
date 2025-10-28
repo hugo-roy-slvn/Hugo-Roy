@@ -2,11 +2,10 @@
 
 ## 1. Objective
 
-The goal of this section is to design and simulate the **enclosure geometry** for each driver (woofer, midrange, tweeter)  
-in order to achieve the desired **acoustic alignment**, **low-frequency extension**, and **mechanical stability**.
+The goal of this section is to **design and simulate** both the **enclosure geometry** and the **crossover network** to achieve the desired **acoustic balance**, **frequency response**, and **mechanical stability**.
 
-The design follows a **bass-reflex configuration** for the woofer and **sealed sub-enclosures** for the midrange and tweeter.
-
+The enclosure design includes a **bass-reflex** configuration for the woofer and **sealed sub-enclosures** for the midrange and tweeter.  
+The crossover network is **simulated and optimized in VituixCAD** to ensure smooth driver integration, accurate phase alignment, and a natural tonal balance.
 ---
 
 ## 2. General Enclosure Concept
