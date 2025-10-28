@@ -23,7 +23,7 @@ while deepening my understanding of **electroacoustic design** and **filter inte
 1. **Specification phase:** define SPL target, frequency range, and acoustic goals.  
 2. **Simulation phase:** import drivers and simulate crossover using *VituixCAD*.  
 3. **Enclosure design:** CAD modeling and volume calculation.  
-4. **Measurement phase:** REW analysis (magnitude, phase, impedance).  
+4. **Measurement phase:** REW analysis (magnitude, phase, impedance). (in progress)
  
 ## Tools & Software
 - **VituixCAD** — Electrical and acoustic simulation  
