@@ -58,7 +58,7 @@ The crossover network is **simulated and optimized in VituixCAD** to ensure smoo
 
 <img width="241" height="606" alt="image" src="https://github.com/user-attachments/assets/6220ba01-7b56-497f-80ae-bdbd4cf36b53" />
 
-## Crossover topology 
+## 5. Crossover topology 
 <img width="654" height="513" alt="image" src="https://github.com/user-attachments/assets/df46806c-ce6b-4e18-b71f-693db98a815d" />
 
 ## 6. Simulation Results
@@ -67,7 +67,7 @@ The crossover network is **simulated and optimized in VituixCAD** to ensure smoo
 
 The simulated SPL response shows a dip around 50 Hz, which is expected to be compensated by the contribution of the bass reflex port. The impedance curve remains satisfactory, consistently above 5 Ω. Phase alignment was challenging to fine-tune, so it was left as currently modeled, with the final evaluation to be performed through listening tests.
 
-## 7. Summary and Next Steps
+## 7. Next Steps
 
 | Next Step | Description |
 |------------|--------------|
