@@ -6,7 +6,6 @@ The goal of this section is to **design and simulate** both the **enclosure geom
 
 The enclosure design includes a **bass-reflex** configuration for the woofer and **sealed sub-enclosures** for the midrange and tweeter.  
 The crossover network is **simulated and optimized in VituixCAD** to ensure smooth driver integration, accurate phase alignment, and a natural tonal balance.
----
 
 ## 2. General Enclosure Concept
 
