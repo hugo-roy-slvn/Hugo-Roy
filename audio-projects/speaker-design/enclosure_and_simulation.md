@@ -71,8 +71,7 @@ The simulated SPL response shows a dip around 50 Hz, which is expected to be com
 
 | Next Step | Description |
 |------------|--------------|
-| 🔹 Build prototype enclosure | Cut and assemble MDF panels according to CAD plan. |
-| 🔹 Measure frequency response (nearfield + farfield) | Validate simulated bass response. |
+| 🔹 Measure frequency response with REW | Validate simulated  response. |
 | 🔹 Adjust damping and port tuning | Refine transient balance and reduce resonance. |
 
 
