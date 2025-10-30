@@ -1,6 +1,7 @@
 #include "esp_log.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "esp_timer.h" 
 
 #include "config.h"
 #include "i2s_manager.h"
@@ -20,6 +21,7 @@ static void i2s_loopback_task(void *arg)
 
     for (;;)
     {
+        int64_t t_start = esp_timer_get_time();
         if (i2s_channel_read(rx_chan, rx_buf, sizeof(rx_buf), &bytes_read, portMAX_DELAY) == ESP_OK)
         {
             int samples = bytes_read / sizeof(int32_t);
@@ -36,6 +38,10 @@ static void i2s_loopback_task(void *arg)
             }
 
             i2s_channel_write(tx_chan, tx_buf, samples * sizeof(int16_t), &bytes_written, pdMS_TO_TICKS(100));
+            
+            int64_t t_end = esp_timer_get_time();
+            int64_t elapsed_us = t_end - t_start;
+            ESP_LOGI("LAT", "Bloc traité en %lld us (%.2f ms)", elapsed_us, elapsed_us / 1000.0f);
         }
     }
 }
