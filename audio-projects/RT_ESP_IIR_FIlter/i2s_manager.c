@@ -13,6 +13,8 @@ void i2s_init_rx(void)
 {
     ESP_LOGI(TAG, "I2S RX Initialisation...");
     i2s_chan_config_t chan_cfg = I2S_CHANNEL_DEFAULT_CONFIG(I2S_PORT_RX, I2S_ROLE_MASTER);
+    chan_cfg.dma_frame_num = 128;   
+    chan_cfg.dma_desc_num  = 3;
     ESP_ERROR_CHECK(i2s_new_channel(&chan_cfg, NULL, &rx_chan));
 
     i2s_std_config_t cfg_rx = {
@@ -41,6 +43,8 @@ void i2s_init_tx(void)
 {
     ESP_LOGI(TAG, "I2S TX Initialisation...");
     i2s_chan_config_t chan_cfg = I2S_CHANNEL_DEFAULT_CONFIG(I2S_PORT_TX, I2S_ROLE_MASTER);
+    chan_cfg.dma_frame_num = 128;   
+    chan_cfg.dma_desc_num  = 3;
     ESP_ERROR_CHECK(i2s_new_channel(&chan_cfg, &tx_chan, NULL));
 
     i2s_std_config_t cfg_tx = {
